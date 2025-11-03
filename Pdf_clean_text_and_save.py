@@ -40,7 +40,8 @@ def save_cleaned_text_to_file(cleaned_words, output_path="cleaned_text.txt"):
     print(f"Cleaned words saved to {output_path}")
 
 # Usage
-pdf_file = r"D:\Downloads\Final Assessment - Viewer Page _ Infosys Springboard.pdf"
+pdf_file = r"path_to_pdf"
 raw_text = extract_text_from_pdf(pdf_file)
 cleaned_text = clean_text(raw_text)
+
 save_cleaned_text_to_file(cleaned_text, output_path="cleaned_text.txt")
